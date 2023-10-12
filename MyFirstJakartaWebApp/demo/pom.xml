@@ -26,6 +26,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!--Dependency added to use Jakarta-->
     <dependency>
          <groupId>jakarta.platform</groupId>
          <artifactId>jakarta.jakartaee-web-api</artifactId>
