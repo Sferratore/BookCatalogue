@@ -3,7 +3,6 @@ import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.WebServlet;
 
-//RequestInfoController uses the "request" object set by the environment to show information about the request received from the server to the user.
 @WebServlet("/Calculate")
 public class CalculatorController extends HttpServlet {
     

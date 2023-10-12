@@ -14,3 +14,6 @@ The important steps in creating your first Jakarta Web App are the following (no
 ## RequestInfo
 Same important info as "MyFirstJakartaWebApp". This exercise shows the usage of the "request" object created by the infrastructure.
 
+## CalculatorWebApp
+Same important info as "MyFirstJakartaWebApp". This exercise implements a simple 4 operations calculator as a web app.
+
