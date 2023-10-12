@@ -4,12 +4,6 @@ Following will be added important information on the exercises contained in the 
 ## MyFirstJakartaWebApp
 The important steps in creating your first Jakarta Web App are the following (not in order).
 * Add Jakarta dependency on pom.xml.
-  <dependency>
-         <groupId>jakarta.platform</groupId>
-         <artifactId>jakarta.jakartaee-web-api</artifactId>
-         <version>9.0.0</version>
-         <scope>provided</scope>
-      </dependency>
 * Add "Java" (Or other name) folder to add your backend code. There you can create servlets importing all the necessary jakarta libs.
 * Use Maven -> Plugins -> War -> Exploded to build  inside "Target" folder a compressed version of your project
 * Go to Servers
