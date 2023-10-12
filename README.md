@@ -10,3 +10,7 @@ The important steps in creating your first Jakarta Web App are the following (no
   * Use the Community Servers Connector to create an Apache Tomcat Server
 * Right click on your compressed project folder under "Target" and follow "Run on server" to deploy your app on the Tomcat server created.
 * To execute your deployed project, right click on your Tomcat Server -> Show Actions -> Show in browser -> Select the URL of localhost + the name of your project.
+
+## RequestInfo
+Same important info as "MyFirstJakartaWebApp". This exercise shows the usage of the "request" object created by the infrastructure.
+
