@@ -1,5 +1,8 @@
+# Important Info
+* The exercises are created and executed on VSCode. All the following info is pertinent to VSCode IDE.
+  
 # JavaTraining
-Following will be added important information on the exercises contained in the repository.
+Following will be added important information on the exercises contained in the repository.  
 
 ## MyFirstJakartaWebApp
 The important steps in creating your first Jakarta Web App are the following (not in order).
