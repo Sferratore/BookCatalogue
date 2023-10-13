@@ -17,3 +17,8 @@ Same important info as "MyFirstJakartaWebApp". This exercise shows the usage of 
 ## CalculatorWebApp
 Same important info as "MyFirstJakartaWebApp". This exercise implements a simple 4 operations calculator as a web app.
 
+## VisitCounter
+Same important info as "MyFirstJakartaWebApp". This exercise implements a simple visits counter.
+* You can set a servlet as the first executed code on connection to the webapp.
+ 1. Remove index.jsp from your project.
+ 2. Add **@WebServlet("/")** to the servlet you want to start with.
