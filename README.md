@@ -1,4 +1,8 @@
 # Important Info
+
+* Following, important info you should know about working with JDBC projects (Eclipse IDE).
+  * Guide for adding connector JAR to your Eclipse project: https://stackoverflow.com/questions/74880235/how-to-deploy-jdbc-jar-file-in-my-eclipse
+
 * Following, important info you should know about working with Jakarta, Servlets, JSPs (VSCode IDE).
   * You need to add Jakarta dependency on pom.xml.
   * (NOT MANDATORY) Add "Java" (Or other name) folder to add your backend code. There you can create servlets importing all the necessary jakarta libs.
