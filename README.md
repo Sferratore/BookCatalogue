@@ -1,6 +1,5 @@
 # Important Info
-* The exercises are created and executed on VSCode. All the following info is pertinent to VSCode IDE.
-* Following, important info you should know about working with Jakarta, Servlets, JSPs.
+* Following, important info you should know about working with Jakarta, Servlets, JSPs (VSCode IDE).
   * You need to add Jakarta dependency on pom.xml.
   * (NOT MANDATORY) Add "Java" (Or other name) folder to add your backend code. There you can create servlets importing all the necessary jakarta libs.
   * Use Maven -> Plugins -> War -> Exploded to build  inside "Target" folder a compressed version of your project
