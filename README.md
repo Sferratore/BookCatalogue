@@ -1,4 +1,7 @@
 # Important Info
+* During the course, some projects have been requested to be created using Eclipse and others using Visual Studio Code.
+  Projects which used Eclipse: FirstJDBCProject
+  Projects which used VSCode: CalculatorAgainButWithJSP, CalculatorWebApp, FirstTenNumbersSquared, MyFirstJakartaWebApp, MyFirstJsp, RequestInfo, VisitCounter
 
 * Following, important info you should know about working with JDBC projects (Eclipse IDE).
   * Guide for adding connector JAR to your Eclipse project: https://stackoverflow.com/questions/74880235/how-to-deploy-jdbc-jar-file-in-my-eclipse
