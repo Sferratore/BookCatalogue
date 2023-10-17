@@ -1,7 +1,15 @@
-
+/**
+ * Represents Client table from the database.
+ */
 public class Client {
 	
 	//------------------CONSTRUCTORS--------------
+	
+	
+	//Default constructor
+	public Client() {}
+	
+	//Full build constructor
 	public Client(String argemail, String argusername, String argname, String argsurname, String argaddress) {
 		this.email = argemail;
 		this.username = argusername;
@@ -9,8 +17,12 @@ public class Client {
 		this.surname = argsurname;
 		this.address = argaddress;
 	}
-	//---------------METHOD-----------------------
+	
+	
+	
+	//---------------METHODS-----------------------
 
+	//Getters
 	public String getEmail() {
         return email;
     }
@@ -31,6 +43,7 @@ public class Client {
         return address;
     }
 
+    //Setters
     public void setEmail(String email) {
         this.email = email;
     }
@@ -50,6 +63,21 @@ public class Client {
     public void setAddress(String address) {
         this.address = address;
     }
+    
+    //ToString override to print the object if needed
+    @Override
+    public String toString() {
+        return "Client{" +
+               "email='" + email + '\'' +
+               ", username='" + username + '\'' +
+               ", name='" + name + '\'' +
+               ", surname='" + surname + '\'' +
+               ", address='" + address + '\'' +
+               '}';
+    }
+    
+    
+    
     
 	//----------------FIELDS----------------------
 	private String email;

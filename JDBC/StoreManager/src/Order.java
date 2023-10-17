@@ -1,7 +1,14 @@
-
+/**
+ * Represents Order table from the database.
+ */
 public class Order {
 
 	//------------------CONSTRUCTORS---------------
+	
+	//Default constructor
+	public Order() {}
+	
+	//Full build constructor
 	public Order(int argorderId, String argclientEmail, String argorderDate, double argtotalCost) {
 		this.orderId = argorderId;
 		this.clientEmail = argclientEmail;
@@ -9,7 +16,10 @@ public class Order {
 		this.totalCost = argtotalCost;
 	}
 	
+	
 	//------------------METHODS--------------------
+	
+	//Getters
     public int getOrderId() {
         return orderId;
     }
@@ -26,6 +36,8 @@ public class Order {
         return totalCost;
     }
 
+    
+    //Setters
     public void setOrderId(int orderId) {
         this.orderId = orderId;
     }
@@ -40,6 +52,18 @@ public class Order {
 
     public void setTotalCost(double totalCost) {
         this.totalCost = totalCost;
+    }
+    
+    
+  //ToString override to print the object if needed
+    @Override
+    public String toString() {
+        return "Order{" +
+               "orderId=" + orderId +
+               ", clientEmail='" + clientEmail + '\'' +
+               ", orderDate='" + orderDate + '\'' +
+               ", totalCost=" + totalCost +
+               '}';
     }
 	
 	
