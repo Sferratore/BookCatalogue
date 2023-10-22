@@ -4,19 +4,20 @@ JavaTraining is a repository in which different Java exercises are loaded, divid
 # Fundamentals
 The "Fundamentals" folder contains exercises which revolve around topics of OOP and basic Java programming.
 
-_HelloWorld_ : Write a program that prints "Hello World!" to the console.
+**_HelloWorld_** : Write a program that prints "Hello World!" to the console.
 
-_CharSubstitution_ : Write a program that replaces "ss" with "s" and "i" with "ii" in "Mississipi".
+**_CharSubstitution_** : Write a program that replaces "ss" with "s" and "i" with "ii" in "Mississipi".
 
-_RandomPrice_ : Print a random price between 10$ and 19.99$. Use the "Random" class.
+**_RandomPrice_** : Print a random price between 10$ and 19.99$. Use the "Random" class.
 
-_VideogameExercise_ : VideogameExercise is an exercise which simulates the interaction of a user and an admin with a videogame system. TO COMPLETE
+**_VideogameExercise_** : VideogameExercise is an exercise which simulates the interaction of a user and an admin with a videogame system. **TO COMPLETE**
+
 
 
 # Java Spring
 The "Spring" folder contains exercises which revolve around the Java Spring Boot framework. The starting point of project directory tree is generated using: https://start.spring.io/ .
 
-*_HelloWorld_* : Write a program using Spring which returns "Hello, world!" when a GET call is done on "/hello". Generate the project with Spring Initializr adding as dependencies "Spring Boot DevTools" and "Spring Web". To see the result of the program, after executing it with *mvn spring-boot:run* 
+**_HelloWorld_** : Write a program using Spring which returns "Hello, world!" when a GET call is done on "/hello". Generate the project with Spring Initializr adding as dependencies "Spring Boot DevTools" and "Spring Web". To see the result of the program, after executing it with _mvn spring-boot:run_, call on your browser for _localhost:8081/hello_.
 
 
 
