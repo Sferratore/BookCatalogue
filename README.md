@@ -4,6 +4,8 @@ JavaTraining is a repository in which different Java exercises are loaded, divid
 # Fundamentals
 The "Fundamentals" folder contains exercises which revolve around topics of OOP and basic Java programming.
 
+Study reference: https://www.w3schools.com/java/
+
 **_HelloWorld_** : Write a program that prints "Hello World!" to the console.
 
 **_CharSubstitution_** : Write a program that replaces "ss" with "s" and "i" with "ii" in "Mississipi".
@@ -16,6 +18,7 @@ The "Fundamentals" folder contains exercises which revolve around topics of OOP 
 
 # Java Spring
 The "Spring" folder contains exercises which revolve around the Java Spring Boot framework. The starting point of project directory tree is generated using: https://start.spring.io/ .
+
 Study reference: https://spring.io/guides
 
 **_HelloWorld_** : Write a program using Spring which returns "Hello, world!" when a GET call is done on "/hello". Generate the project with Spring Initializr adding as dependencies "Spring Boot DevTools" and "Spring Web". To see the result of the program, after executing it with _mvn spring-boot:run_, call on your browser for _localhost:8081/hello_.
