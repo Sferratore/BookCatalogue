@@ -4,13 +4,24 @@ JavaTraining is a repository in which different Java exercises are loaded, divid
 # Fundamentals
 The "Fundamentals" folder contains exercises which revolve around topics of OOP and basic Java programming.
 
-_HelloWorld_ : Write a program that prints "Hello World!" to the console.
+Study reference: https://www.w3schools.com/java/
 
-_CharSubstitution_ : Write a program that replaces "ss" with "s" and "i" with "ii" in "Mississipi".
+**_HelloWorld_** : Write a program that prints "Hello World!" to the console.
 
-_RandomPrice_ : Print a random price between 10$ and 19.99$. Use the "Random" class.
+**_CharSubstitution_** : Write a program that replaces "ss" with "s" and "i" with "ii" in "Mississipi".
 
-_VideogameExercise_ : VideogameExercise is an exercise which simulates the interaction of a user and an admin with a videogame system. TO COMPLETE
+**_RandomPrice_** : Print a random price between 10$ and 19.99$. Use the "Random" class.
+
+**_VideogameExercise_** : VideogameExercise is an exercise which simulates the interaction of a user and an admin with a videogame system. Create a class hierarchy to represent various video game types, accessible only after user registration with admin management. Specifications: Create a base class VideoGame with "name" and "genre" variables and a "play()" method. Derive two classes: VideoGameAction (with "fight()" method) and VideoGameStrategy (with "plan()" method). Show polymorphism by using an array of VideoGame objects. Implement user registration and login/logout options for multi-user support. Admin users can handle game requests, add, remove, or modify games.
+
+
+
+# Java Spring
+The "Spring" folder contains exercises which revolve around the Java Spring Boot framework. The starting point of project directory tree is generated using: https://start.spring.io/ .
+
+Study reference: https://spring.io/guides
+
+**_HelloWorld_** : Write a program using Spring which returns "Hello, world!" when a GET call is done on "/hello". Generate the project with Spring Initializr adding as dependencies "Spring Boot DevTools" and "Spring Web". To see the result of the program, after executing it with _mvn spring-boot:run_, call on your browser for _localhost:8081/hello_.
 
 
 
