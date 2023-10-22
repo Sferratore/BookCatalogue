@@ -5,8 +5,11 @@ JavaTraining is a repository in which different Java exercises are loaded, divid
 The "Fundamentals" folder contains exercises which revolve around topics of OOP and basic Java programming.
 
 _HelloWorld_ : Write a program that prints "Hello World!" to the console.
+
 _CharSubstitution_ : Write a program that replaces "ss" with "s" and "i" with "ii" in "Mississipi".
+
 _RandomPrice_ : Print a random price between 10$ and 19.99$. Use the "Random" class.
+
 _VideogameExercise_ : VideogameExercise is an exercise which simulates the interaction of a user and an admin with a videogame system. TO COMPLETE
 
 
