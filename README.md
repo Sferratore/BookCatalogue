@@ -12,6 +12,8 @@ Study reference: https://www.w3schools.com/java/
 
 **_RandomPrice_** : Print a random price between 10$ and 19.99$. Use the "Random" class.
 
+**_LampAndTwoSwitches_** : Simulate an electric circuit which controls the lamp in a corridor, with switches to the two extremities of the corridor itself. Every switch can have two states (up and down) and the lamp can be on or off. The change of the state of any of the two switches provokes the change in the state of the lamp.
+
 **_VideogameExercise_** : VideogameExercise is an exercise which simulates the interaction of a user and an admin with a videogame system. Create a class hierarchy to represent various video game types, accessible only after user registration with admin management. Specifications: Create a base class VideoGame with "name" and "genre" variables and a "play()" method. Derive two classes: VideoGameAction (with "fight()" method) and VideoGameStrategy (with "plan()" method). Show polymorphism by using an array of VideoGame objects. Implement user registration and login/logout options for multi-user support. Admin users can handle game requests, add, remove, or modify games.
 
 
