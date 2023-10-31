@@ -1,4 +1,0 @@
-Username: ANN
-Password: pass
-isAdmin: true
----
