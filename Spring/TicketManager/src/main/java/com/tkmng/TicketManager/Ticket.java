@@ -3,6 +3,7 @@ import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
+// Ticket is the main model class representing event tickets.
 public class Ticket {
     private Long id;
     private String eventName;
@@ -10,11 +11,11 @@ public class Ticket {
     private String buyerName;
     private double price;
 
-    // Costruttore vuoto
+    // Default constructor
     public Ticket() {
     }
 
-    // Costruttore con parametri
+    // Parameterized constructor
     public Ticket(Long id, String eventName, LocalDate eventDate, String buyerName, double price) {
         this.id = id;
         this.eventName = eventName;
@@ -23,7 +24,7 @@ public class Ticket {
         this.price = price;
     }
 
-    // Getter e Setter per id
+    // Getter and Setter for id
     public Long getId() {
         return id;
     }
@@ -32,7 +33,7 @@ public class Ticket {
         this.id = id;
     }
 
-    // Getter e Setter per eventName
+    // Getter and Setter for eventName
     public String getEventName() {
         return eventName;
     }
@@ -41,7 +42,7 @@ public class Ticket {
         this.eventName = eventName;
     }
 
-    // Getter e Setter per eventDate
+    // Getter and Setter for eventDate
     public LocalDate getEventDate() {
         return eventDate;
     }
@@ -50,7 +51,7 @@ public class Ticket {
         this.eventDate = eventDate;
     }
 
-    // Getter e Setter per buyerName
+    // Getter and Setter for buyerName
     public String getBuyerName() {
         return buyerName;
     }
@@ -59,7 +60,7 @@ public class Ticket {
         this.buyerName = buyerName;
     }
 
-    // Getter e Setter per price
+    // Getter and Setter for price
     public double getPrice() {
         return price;
     }
@@ -68,7 +69,7 @@ public class Ticket {
         this.price = price;
     }
 
-    // Metodo toString per rappresentazione testuale
+    // toString method for textual representation
     @Override
     public String toString() {
         return "Ticket{" +
@@ -80,7 +81,7 @@ public class Ticket {
                 '}';
     }
 
-    // Metodo per convertire l'oggetto Ticket in una mappa (HashMap)
+    // Method to convert the Ticket object to a HashMap
     public Map<String, Object> toHashMap() {
         Map<String, Object> map = new HashMap<>();
         map.put("id", id);
