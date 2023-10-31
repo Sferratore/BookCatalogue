@@ -1,4 +1,4 @@
-package com.ActCrud.ActivityCRUD.model;
+package com.ActCrud.ActivityCRUD;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
