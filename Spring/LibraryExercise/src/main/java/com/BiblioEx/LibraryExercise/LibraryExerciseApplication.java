@@ -1,13 +1,13 @@
-package com.BiblioEx.EsercizioBiblioteca;
+package com.BiblioEx.LibraryExercise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EsercizioBibliotecaApplication {
+public class LibraryExerciseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EsercizioBibliotecaApplication.class, args);
+		SpringApplication.run(LibraryExerciseApplication.class, args);
 	}
 
 }
